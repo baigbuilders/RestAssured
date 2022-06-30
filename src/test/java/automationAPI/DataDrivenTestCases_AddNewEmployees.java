@@ -22,7 +22,7 @@ public class DataDrivenTestCases_AddNewEmployees {
 		JSONObject reqPhrams = new JSONObject();
 		reqPhrams.put("name", "abcd");
 		reqPhrams.put("salary", "2345");
-		reqPhrams.put("age", "30")
+		reqPhrams.put("age", "30");
 		
 		//Response Object
 		Response response = httpRequest.request(Method.POST, "/api/v1/create");
